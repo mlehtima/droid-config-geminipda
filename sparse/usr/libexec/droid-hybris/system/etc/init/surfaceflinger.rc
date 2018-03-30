@@ -1,0 +1,7 @@
+service surfaceflinger /usr/libexec/droid-hybris/system/bin/surfaceflinger
+    class core
+    user system
+    group graphics drmrpc readproc
+    setenv LD_PRELOAD /usr/libexec/droid-hybris/system/lib64/libsurfaceflinger.so
+    # onrestart restart zygote
+    writepid /dev/stune/foreground/tasks
