@@ -1,19 +1,20 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-Description: Pattern with packages for aeon6797_6m_n HW Adaptation
-Name: jolla-hw-adaptation-aeon6797_6m_n
+Description: Pattern with packages for geminipda HW Adaptation
+Name: jolla-hw-adaptation-geminipda
 Requires:
-- droid-hal-aeon6797_6m_n
-- droid-hal-aeon6797_6m_n-img-boot
-- droid-hal-aeon6797_6m_n-kernel-modules
-- droid-config-aeon6797_6m_n-sailfish
-- droid-config-aeon6797_6m_n-pulseaudio-settings
-- droid-config-aeon6797_6m_n-policy-settings
-- droid-config-aeon6797_6m_n-preinit-plugin
-- droid-config-aeon6797_6m_n-flashing
-- droid-config-aeon6797_6m_n-bluez5
-- droid-hal-version-aeon6797_6m_n
+- droid-hal-geminipda
+- droid-hal-geminipda-img-boot
+- droid-hal-geminipda-kernel-modules
+- droid-config-geminipda-sailfish
+- droid-config-geminipda-pulseaudio-settings
+- droid-config-geminipda-policy-settings
+- droid-config-geminipda-preinit-plugin
+- droid-config-geminipda-flashing
+- droid-config-geminipda-bluez5
+- droid-hal-version-geminipda
+- droid-system-geminipda
 
 # Hybris packages
 - libhybris-libEGL
@@ -81,5 +82,5 @@ Requires:
 #- qt5-qtmultimedia-plugin-mediaservice-irisradio
 #- jolla-mediaplayer-radio
 
-Summary: Jolla HW Adaptation aeon6797_6m_n
+Summary: Jolla HW Adaptation geminipda
 

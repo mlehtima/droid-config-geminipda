@@ -1,6 +1,6 @@
 # These and other macros are documented in
 # ../droid-configs-device/droid-configs.inc
-%define device aeon6797_6m_n
+%define device geminipda
 %define vendor planet
 
 %define vendor_pretty Planet
@@ -10,7 +10,7 @@
 %define community_adaptation 1
 
 # Adjust this for your device
-%define pixel_ratio 2.0
+%define pixel_ratio 1.70
 
 Provides: ofono-configs
 

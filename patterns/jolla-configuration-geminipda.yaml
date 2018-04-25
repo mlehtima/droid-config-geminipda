@@ -1,10 +1,10 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-Description: Pattern with packages for aeon6797_6m_n configurations
-Name: jolla-configuration-aeon6797_6m_n
+Description: Pattern with packages for geminipda configurations
+Name: jolla-configuration-geminipda
 Requires:
-- pattern:jolla-hw-adaptation-aeon6797_6m_n
+- pattern:jolla-hw-adaptation-geminipda
 
 - patterns-sailfish-applications
 - patterns-sailfish-ui
@@ -37,5 +37,8 @@ Requires:
 # to improve camera startup times and the like
 #- mapplauncherd-booster-silica-qt5-media
 
-Summary: Jolla Configuration aeon6797_6m_n
+# Gemini PDA keyboard layouts
+- xkeyboard-config-geminipda
+
+Summary: Jolla Configuration geminipda
 
